@@ -37,8 +37,6 @@ plateau = (
 		( TERRE , TERRE , PIEGE_BLANC , TANIERE_BLANC , PIEGE_BLANC , TERRE , TERRE )
 	)
 	
-cases = []
-	
 	
 # Pions : Force et position initiale
 pionsDuJeu = {
@@ -99,6 +97,11 @@ pionsDuJeu = {
 					}
 		}
 	}
+
+	
+# Identifiants des cases et occupants
+cases = []
+
 	
 # Pions dans la partie
 pions = {
